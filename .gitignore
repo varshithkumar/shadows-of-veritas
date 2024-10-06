@@ -1,0 +1,53 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore compiled files and directories
+*.class
+*.pyc
+*.o
+*.so
+
+# Ignore IDE/project-specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore logs and temporary files
+*.log
+logs/
+temp/
+*.tmp
+
+# Ignore environment variable files (for Python, Node.js, etc.)
+.env
+
+# Ignore dependencies (if using Python's virtual environment)
+venv/
+env/
+__pycache__/
+
+# Ignore build output and generated files
+dist/
+build/
+out/
+
+# Ignore compiled libraries and executables
+*.dll
+*.exe
+*.dylib
+*.jar
+*.war
+
+# Ignore macOS specific files
+*.DS_Store
+
+# Ignore package-lock.json or yarn.lock (if you use yarn)
+package-lock.json
+yarn.lock
